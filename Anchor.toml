@@ -1,0 +1,12 @@
+[programs.devnet]
+starter = "93JRZ34WbdpeyrdgS2UCd48fxGNhS2ut1N3BRL1yp1nj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/kevinfaveri/.config/solana/candyfactory-devnet.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
